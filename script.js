@@ -16,8 +16,8 @@ window.addEventListener('scroll', () => {
     let value = window.scrollY
     getBg.style.top = value + 0.2 + 'px'
     getBurung.style.right = 100 + value + 0.9 + 'px'
-    getBurung.style.top =value + 0.1 + 'px'
-    getText.style.top = 200 + value + -5 + 'px'
+    getBurung.style.top = value + 8 + 'px'
+    getText.style.top = 200 + value + 0.9 + 'px'
 })
 getTop.addEventListener('click', () => {
     return location.href='#home'
