@@ -25,7 +25,7 @@ nav {
     font-size: 1.5em;
 }
 .logo span{
-    color: red
+    color: #000;
 }
 nav .list-nav {
     list-style: none;
@@ -88,9 +88,13 @@ nav .list-nav li a:hover{
     position: absolute;
     z-index: -4;
     top: 200px;
-    color: #ffffff;
+    color: #000;
     right: 20%;
     font-size: 8em;
+}
+#home h1 span {
+    color: #fff;
+    background-color: #000;
 }
 #home img {
     width: 100%;
@@ -101,11 +105,14 @@ nav .list-nav li a:hover{
 #home .img-bg {
     z-index: -6;
 }
-#home img:nth-child(3) {
-    width: 300px;
+#home .img-pohon {
+    z-index: -4
+}
+#home .img-burung {
+    width: 200px;
     height: auto;
-    top: 0;
-    right: 500px;
+    top: 100px;
+    right: 0;
     z-index: -5
 }
 

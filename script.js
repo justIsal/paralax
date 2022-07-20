@@ -7,6 +7,7 @@ toggle.addEventListener('click', () => {
 let getHead = document.getElementsByClassName("header")[0]
 let getParag = document.getElementsByClassName('paragraf')[0];
 let getBg = document.querySelector('#home .img-bg')
+let getPohon = document.querySelector('#home .img-pohon')
 let getBurung = document.querySelector('#home .img-burung')
 let getPerahu = document.querySelector('#home .img-perahu')
 let getText = document.querySelector('#home h1')
@@ -14,9 +15,10 @@ let getTop = document.querySelector('.top p')
 
 window.addEventListener('scroll', () => {
     let value = window.scrollY
-    getBg.style.top = value + 0.2 + 'px'
-    getBurung.style.right = 100 + value + 0.9 + 'px'
-    getBurung.style.top = value + 8 + 'px'
+    getBg.style.top = value + 0 + 'px'
+    getPohon.style.top =value + 0.2 + 'px'
+    getBurung.style.right =value + 0.9 + 'px'
+    getBurung.style.top = 100 + value + 8 + 'px'
     getText.style.top = 200 + value + 0.9 + 'px'
 })
 getTop.addEventListener('click', () => {
